@@ -7,7 +7,7 @@ class Solution:
         map = dict(sorted(map.items(), key=lambda item: item[1], reverse=True))
 
         res = []
-        for key in map: 
+        for key in map.keys(): 
             res.append(key)
             if len(res) == k:
                 break
