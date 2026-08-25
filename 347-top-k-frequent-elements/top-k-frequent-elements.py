@@ -12,4 +12,4 @@ class Solution:
             if len(res) == k:
                 break
 
-        return list(res)
+        return res
